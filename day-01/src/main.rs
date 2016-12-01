@@ -2,10 +2,11 @@
 //!
 //! This is my Rust solution to Day 1 of the Advent of Code 2016
 //! "No Time for a Taxicab." Full details of the challenge can be
-//! found on [the challenge page](page).
+//! found on [the challenge page][page].
 //!
 //! [page]: http://adventofcode.com/2016/day/1
 
+use std::collections::HashMap;
 use std::str::FromStr;
 
 /// The compass direction Santa's little helper is facing.
@@ -204,11 +205,46 @@ pub fn process_input(input_str: &str) -> Result<Position, InstructionParseErr> {
               })
 }
 
+/// Calculates the location of the Easter Bunny's HQ, which is the first
+/// intersection visited twice when following the instructions.
+pub fn find_bunny_hq(input_str: &str) -> Result<(i64, i64), InstructionParseErr> {
+    let instructions = input_str.split(", ")
+        .map(|s| s.parse::<Instruction>())
+        .collect::<Result<Vec<Instruction>, InstructionParseErr>>()?;
+
+    // Construct a map to hold all the locations that we have visited
+    let mut visited = HashMap::new();
+    let mut posn = Position::new();
+    visited.insert((0, 0), 1);
+
+    for instr in instructions {
+        posn = posn.turn(instr.direction);
+        for _ in 1 .. (instr.amount + 1) {
+            posn = posn.walk(1);
+            if visited.get(&(posn.x, posn.y)).is_some() {
+                return Ok((posn.x, posn.y))
+            } else {
+                visited.insert((posn.x, posn.y), 1);
+            }
+            
+        }
+    }
+
+    Ok((std::i64::MAX, std::i64::MAX))
+}
+
+
 fn main() {
     let challenge_input = "R2, L1, R2, R1, R1, L3, R3, L5, L5, L2, L1, R4, R1, R3, L5, L5, R3, L4, L4, R5, R4, R3, L1, L2, R5, R4, L2, R1, R4, R4, L2, L1, L1, R190, R3, L4, R52, R5, R3, L5, R3, R2, R1, L5, L5, L4, R2, L3, R3, L1, L3, R5, L3, L4, R3, R77, R3, L2, R189, R4, R2, L2, R2, L1, R5, R4, R4, R2, L2, L2, L5, L1, R1, R2, L3, L4, L5, R1, L1, L2, L2, R2, L3, R3, L4, L1, L5, L4, L4, R3, R5, L2, R4, R5, R3, L2, L2, L4, L2, R2, L5, L4, R3, R1, L2, R2, R4, L1, L4, L4, L2, R2, L4, L1, L1, R4, L1, L3, L2, L2, L5, R5, R2, R5, L1, L5, R2, R4, R4, L2, R5, L5, R5, R5, L4, R2, R1, R1, R3, L3, L3, L4, L3, L2, L2, L2, R2, L1, L3, R2, R5, R5, L4, R3, L3, L4, R2, L5, R5";
 
-    let destination = process_input(challenge_input);
-
-    println!("{:?}", destination);
-    println!("{}", destination.unwrap().blocks_travelled());
+    let destination = process_input(challenge_input).expect("Failed to process instructions");
+    let bunny_hq = find_bunny_hq(challenge_input).expect("Failed to process instructions");
+    
+    println!("Final location = ({}, {}), facing {:?}",
+             destination.x,
+             destination.y,
+             destination.facing);
+    println!("Distance from the start = {}\n", destination.blocks_travelled());
+    println!("First place visited twice = ({}, {})", bunny_hq.0, bunny_hq.1);
+    println!("Distance from the start = {}", bunny_hq.0.abs() + bunny_hq.1.abs());
 }
