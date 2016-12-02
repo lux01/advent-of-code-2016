@@ -12,7 +12,9 @@ To quote the _Advent of Code_ website:
 Each day has two parts, the second part of which is available after successfully completing the first.
 
 * [Day 1 - No Time for a Taxicab][day-01]: [Solution](day-01/) (Rust)
+* [Day 2 - Bathroom Security][day-02]: [Solution](day_02/) (Rust)
 
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
+[day-02]: http://adventofcode.com/2016/day/2
