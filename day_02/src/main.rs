@@ -33,18 +33,18 @@ pub trait Numpad: Sized + Copy {
     /// Interperates the first of the input str as a series of
     /// numpad instructions and returns the corresponding final button.
     fn find_button(self, instr_line: &str) -> Self {
-                instr_line.chars()
-                    .fold(self,
-                          |button, direction| {
-                              match direction {
-                                  'L' => button.left(),
-                                  'R' => button.right(),
-                                  'U' => button.up(),
-                                  'D' => button.down(),
-                                  _   => button
-                              }
-                          })
-            }
+        instr_line.chars()
+            .fold(self,
+                  |button, direction| {
+                      match direction {
+                          'L' => button.left(),
+                          'R' => button.right(),
+                          'U' => button.up(),
+                          'D' => button.down(),
+                          _   => button
+                      }
+                  })
+    }
 }
 
 macro_rules! numpad_impl {
@@ -156,7 +156,7 @@ UUUUD";
     }
     
 }
-    
+
 pub fn find_door_code<T: Numpad>(instructions: &str) -> Vec<u8> {
     let mut buttons = Vec::with_capacity(4);
 
