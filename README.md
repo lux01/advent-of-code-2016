@@ -15,9 +15,11 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 2 - Bathroom Security][day-02]: [Solution](day_02/) (Rust)
 * [Day 3 - Squares With Three Sides][day-03]: [Solution](day_03/) (Clojure)
 * [Day 4 - Security Through Obscurity][day-04]: [Solution](day_04/) (Clojure)
+* [Day 5 - How About a Nice Game of Chess?][day-05]: [Solution](day_05/) (Clojure)
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
 [day-02]: http://adventofcode.com/2016/day/2
 [day-03]: http://adventofcode.com/2016/day/3
 [day-04]: http://adventofcode.com/2016/day/4
+[day-04]: http://adventofcode.com/2016/day/5
