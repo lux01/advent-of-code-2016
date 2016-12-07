@@ -17,6 +17,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 4 - Security Through Obscurity][day-04]: [Solution](day_04/) (Clojure)
 * [Day 5 - How About a Nice Game of Chess?][day-05]: [Solution](day_05/) (Clojure)
 * [Day 6 - Signals and Noise][day-06]: [Solution](day_06/) (Clojure)
+* [Day 7 - Internet Protocol Version 7][day-07]: [Solution](day_07/) (Clojure)
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
@@ -25,3 +26,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-04]: http://adventofcode.com/2016/day/4
 [day-05]: http://adventofcode.com/2016/day/5
 [day-06]: http://adventofcode.com/2016/day/6
+[day-07]: http://adventofcode.com/2016/day/7
