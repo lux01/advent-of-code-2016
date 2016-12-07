@@ -21,13 +21,6 @@
     (some identity (for [aba (:aba parts)
                          bab (:bab parts)]
                      (= aba (reverse bab))))))
-  
-(defn get-babs
-  "Finds all the BABs in an IP map."
-  [ip]
-  (map rest
-       (mapcat (partial re-seq #"(?:\w*?)(\w)((?:(?!\1)\w))\1\w*")
-               (:hypernet ip))))
 
 (defn split-ip
   "Splits the IP into two sequences of supernet and hypernet sequences."
