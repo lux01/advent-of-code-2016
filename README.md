@@ -19,6 +19,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 6 - Signals and Noise][day-06]: [Solution](day_06/) (Clojure)
 * [Day 7 - Internet Protocol Version 7][day-07]: [Solution](day_07/) (Clojure)
 * [Day 8 - Two-Factor Authentication][day-08]: [Solution](day_08/) (Rust)
+* [Day 9 - Explosives in Cyberspace][day-09]: [Solution](day_09/) (Clojure)
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
@@ -29,3 +30,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-06]: http://adventofcode.com/2016/day/6
 [day-07]: http://adventofcode.com/2016/day/7
 [day-08]: http://adventofcode.com/2016/day/8
+[day-09]: http://adventofcode.com/2016/day/9
