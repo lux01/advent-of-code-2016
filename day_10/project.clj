@@ -1,5 +1,5 @@
 (defproject day_10 "1.0.0"
-  :description "Clojure solution to day 9 of the Advent of Code 2016"
+  :description "Clojure solution to day 10 of the Advent of Code 2016"
   :url "https://github.com/lux01/advent-of-code-2016"
   :license {:name "MIT License"
             :url "https://github.com/lux01/advent-of-code-2016/blob/master/LICENSE"}
