@@ -24,7 +24,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory)
 * [Day 12 - Leonardo's Monorail][day-12]: [Solution](day_12/) (Rust)
 * [Day 13 - A Maze of Twisty Little Cubicles][day-13]: NYI
-* [Day 14 - One-Time Pad][day-14]: NYI
+* [Day 14 - One-Time Pad][day-14]: [Solution](day_14/) (Rust)
 * [Day 15 - Timing is Everything][day-15]: NYI
 
 [aoc2016]: http://adventofcode.com/2016
