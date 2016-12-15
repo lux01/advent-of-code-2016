@@ -23,6 +23,9 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 10- Balance Bots][day-10]: [Solution](day_10/) (Clojure)
 * [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory)
 * [Day 12 - Leonardo's Monorail][day-12]: [Solution](day_12/) (Rust)
+* [Day 13 - A Maze of Twisty Little Cubicles][day-13]: NYI
+* [Day 14 - One-Time Pad][day-14]: NYI
+* [Day 15 - Timing is Everything][day-15]: NYI
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
@@ -37,3 +40,6 @@ Each day has two parts, the second part of which is available after successfully
 [day-10]: http://adventofcode.com/2016/day/10
 [day-11]: http://adventofcode.com/2016/day/11
 [day-12]: http://adventofcode.com/2016/day/12
+[day-13]: http://adventofcode.com/2016/day/13
+[day-14]: http://adventofcode.com/2016/day/14
+[day-15]: http://adventofcode.com/2016/day/15

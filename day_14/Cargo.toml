@@ -1,0 +1,9 @@
+[package]
+name = "day_14"
+version = "0.1.0"
+authors = ["William Woodhead <william.woodhead@lux01.co.uk>"]
+
+[dependencies]
+regex = "0.1.80"
+rust-crypto = "0.2.36"
+lazy_static = "0.2.2"
