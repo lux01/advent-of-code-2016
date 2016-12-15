@@ -22,7 +22,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 9 - Explosives in Cyberspace][day-09]: [Solution](day_09/) (Clojure)
 * [Day 10- Balance Bots][day-10]: [Solution](day_10/) (Clojure)
 * [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory)
-
+* [Day 12 - Leonardo's Monorail][day-12]: [Solution](day_12/) (Rust)
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
@@ -36,3 +36,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-09]: http://adventofcode.com/2016/day/9
 [day-10]: http://adventofcode.com/2016/day/10
 [day-11]: http://adventofcode.com/2016/day/11
+[day-12]: http://adventofcode.com/2016/day/12
