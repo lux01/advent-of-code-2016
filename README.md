@@ -44,3 +44,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-13]: http://adventofcode.com/2016/day/13
 [day-14]: http://adventofcode.com/2016/day/14
 [day-15]: http://adventofcode.com/2016/day/15
+[day-16]: http://adventofcode.com/2016/day/16
