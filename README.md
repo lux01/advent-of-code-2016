@@ -26,6 +26,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 13 - A Maze of Twisty Little Cubicles][day-13]: NYI
 * [Day 14 - One-Time Pad][day-14]: [Solution](day_14/) (Rust)
 * [Day 15 - Timing is Everything][day-15]: [Solution](day_15/day_15.wl) (Wolfram Language)
+* [Day 16 - Dragon Checksum][day-16]: [Solution](day_16/src/day_16/core.clj) (Clojure)
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
