@@ -21,7 +21,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 8 - Two-Factor Authentication][day-08]: [Solution](day_08/) (Rust)
 * [Day 9 - Explosives in Cyberspace][day-09]: [Solution](day_09/) (Clojure)
 * [Day 10- Balance Bots][day-10]: [Solution](day_10/) (Clojure)
-* [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory)
+* [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory), [Solution](day_11_rust/) (Rust)
 * [Day 12 - Leonardo's Monorail][day-12]: [Solution](day_12/) (Rust)
 * [Day 13 - A Maze of Twisty Little Cubicles][day-13]: NYI
 * [Day 14 - One-Time Pad][day-14]: [Solution](day_14/) (Rust)
