@@ -23,7 +23,7 @@ Each day has two parts, the second part of which is available after successfully
 * [Day 10- Balance Bots][day-10]: [Solution](day_10/) (Clojure)
 * [Day 11 - Radioisotope Thermoelectric Generators][day-11]: [Solution](day_11/) (Clojure - unsatisfactory), [Solution](day_11_rust/) (Rust)
 * [Day 12 - Leonardo's Monorail][day-12]: [Solution](day_12/) (Rust)
-* [Day 13 - A Maze of Twisty Little Cubicles][day-13]: NYI
+* [Day 13 - A Maze of Twisty Little Cubicles][day-13]: [Solution](day_13/) (Rust)
 * [Day 14 - One-Time Pad][day-14]: [Solution](day_14/) (Rust)
 * [Day 15 - Timing is Everything][day-15]: [Solution](day_15/day_15.wl) (Wolfram Language)
 * [Day 16 - Dragon Checksum][day-16]: [Solution](day_16/src/day_16/core.clj) (Clojure)
