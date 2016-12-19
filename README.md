@@ -10,27 +10,27 @@ To quote the _Advent of Code_ website:
 
 Each day has two parts, the second part of which is available after successfully completing the first.
 
-| Day | Challenge Name                                                 | Solution                               | Language              |
-| --- | -------------------------------------------------------------- | -------------------------------------- | --------------------- |
-|   1 | [No Time for a Taxicab][day-01]                                | [Solution](day_01/src/main.rs)         | Rust                  |
-|   2 | [Bathroom Security][day-02]                                    | [Solution](day_02/src/main.rs)         | Rust                  |
-|   3 | [Squares With Three Sides][day-03]                             | [Solution](day_03/src/day_03/core.clj) | Clojure               |
-|   4 | [Security Through Obscurity][day-04]                           | [Solution](day_04/src/day_04/core.clj) | Clojure               |
-|   5 | [How About a Nice Game of Chess?][day-05]                      | [Solution](day_05/src/day_05/core.clj) | Clojure               |
-|   6 | [Signals and Noise][day-06]                                    | [Solution](day_06/src/day_06/core.clj) | Clojure               |
-|   7 | [Internet Protocol Version 7][day-07]                          | [Solution](day_07/src/day_07/core.clj) | Clojure               |
-|   8 | [Two-Factor Authentication][day-08]                            | [Solution](day_08/src/main.rs)         | Rust                  |
-|   9 | [Explosives in Cyberspace][day-09]                             | [Solution](day_09/src/day_09/core.clj) | Clojure               |
-|  10 | [Day 10- Balance Bots][day-10]                                 | [Solution](day_10/src/day_10/core.clj) | Clojure               | 
-|  11 | [Radioisotope Thermoelectric Generators][day-11]               | [Solution 1][11-1], [Solution 2][11-2] | 1 - Clojure, 2 - Rust |
-|  12 | [Leonardo's Monorail][day-12]                                  | [Solution](day_12/src/main.rs)         | Rust                  |
-|  13 | [A Maze of Twisty Little Cubicles][day-13]                     | [Solution](day_13/src/main.rs)         | Rust                  |
-|  14 | [One-Time Pad][day-14]                                         | [Solution](day_14/src/main.rs)         | Rust                  |
-|  15 | [Timing is Everything][day-15]                                 | [Solution](day_15/day_15.wl)           | Wolfram Language      |
-|  16 | [Dragon Checksum][day-16]                                      | [Solution](day_16/src/day_16/core.clj) | Clojure               |
-|  17 | [Two Steps Forware][day-17]                                    | _NYI_                                  | _NYI_                 |
-|  18 | [Like a Rogue][day-18]                                         | [Solution](day_18/src/day_18/core.clj) | Clojure               |
-|  19 | [An Elephant Named Joseph][day-19]                             | [Solution](day_19/src/Day19.hs)        | Haskell               |
+| Day | Challenge Name                                                 | Solution                                 | Language              |
+| --- | -------------------------------------------------------------- | ---------------------------------------- | --------------------- |
+|   1 | [No Time for a Taxicab][day-01]                                | [Solution](day_01/src/main.rs)           | Rust                  |
+|   2 | [Bathroom Security][day-02]                                    | [Solution](day_02/src/main.rs)           | Rust                  |
+|   3 | [Squares With Three Sides][day-03]                             | [Solution](day_03/src/day_03/core.clj)   | Clojure               |
+|   4 | [Security Through Obscurity][day-04]                           | [Solution](day_04/src/day_04/core.clj)   | Clojure               |
+|   5 | [How About a Nice Game of Chess?][day-05]                      | [Solution](day_05/src/day_05/core.clj)   | Clojure               |
+|   6 | [Signals and Noise][day-06]                                    | [Solution](day_06/src/day_06/core.clj)   | Clojure               |
+|   7 | [Internet Protocol Version 7][day-07]                          | [Solution](day_07/src/day_07/core.clj)   | Clojure               |
+|   8 | [Two-Factor Authentication][day-08]                            | [Solution](day_08/src/main.rs)           | Rust                  |
+|   9 | [Explosives in Cyberspace][day-09]                             | [Solution](day_09/src/day_09/core.clj)   | Clojure               |
+|  10 | [Day 10- Balance Bots][day-10]                                 | [Solution](day_10/src/day_10/core.clj)   | Clojure               | 
+|  11 | [Radioisotope Thermoelectric Generators][day-11]               | [Solution 1][11-1], [Solution 2][11-2]   | 1 - Clojure, 2 - Rust |
+|  12 | [Leonardo's Monorail][day-12]                                  | [Solution](day_12/src/main.rs)           | Rust                  |
+|  13 | [A Maze of Twisty Little Cubicles][day-13]                     | [Solution](day_13/src/main.rs)           | Rust                  |
+|  14 | [One-Time Pad][day-14]                                         | [Solution](day_14/src/main.rs)           | Rust                  |
+|  15 | [Timing is Everything][day-15]                                 | [Solution](day_15/day_15.wl)             | Wolfram Language      |
+|  16 | [Dragon Checksum][day-16]                                      | [Solution](day_16/src/day_16/core.clj)   | Clojure               |
+|  17 | [Two Steps Forware][day-17]                                    | _NYI_                                    | _NYI_                 |
+|  18 | [Like a Rogue][day-18]                                         | [Solution](day_18/src/day_18/core.clj)   | Clojure               |
+|  19 | [An Elephant Named Joseph][day-19]                             | [Solution](day_19/day19-hs/src/Day19.hs) | Haskell               |
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
