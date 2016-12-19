@@ -1,3 +1,4 @@
 target
 .hgignore
 .nrepl-port
+.stack-work

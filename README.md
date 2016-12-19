@@ -30,7 +30,7 @@ Each day has two parts, the second part of which is available after successfully
 |  16 | [Dragon Checksum][day-16]                                      | [Solution](day_16/src/day_16/core.clj) | Clojure               |
 |  17 | [Two Steps Forware][day-17]                                    | _NYI_                                  | _NYI_                 |
 |  18 | [Like a Rogue][day-18]                                         | [Solution](day_18/src/day_18/core.clj) | Clojure               |
-
+|  19 | [An Elephant Named Joseph][day-19]                             | [Solution](day_19/src/Day19.hs)        | Haskell               |
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
@@ -53,4 +53,5 @@ Each day has two parts, the second part of which is available after successfully
 [day-16]: http://adventofcode.com/2016/day/16
 [day-17]: http://adventofcode.com/2016/day/17
 [day-18]: http://adventofcode.com/2016/day/18
+[day-19]: http://adventofcode.com/2016/day/19
 
