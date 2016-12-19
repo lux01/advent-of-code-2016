@@ -21,14 +21,14 @@ Each day has two parts, the second part of which is available after successfully
 |   7 | [Internet Protocol Version 7][day-07]                          | [Solution](day_07/src/day_07/core.clj)   | Clojure               |
 |   8 | [Two-Factor Authentication][day-08]                            | [Solution](day_08/src/main.rs)           | Rust                  |
 |   9 | [Explosives in Cyberspace][day-09]                             | [Solution](day_09/src/day_09/core.clj)   | Clojure               |
-|  10 | [Day 10- Balance Bots][day-10]                                 | [Solution](day_10/src/day_10/core.clj)   | Clojure               | 
+|  10 | [Balance Bots][day-10]                                         | [Solution](day_10/src/day_10/core.clj)   | Clojure               | 
 |  11 | [Radioisotope Thermoelectric Generators][day-11]               | [Solution 1][11-1], [Solution 2][11-2]   | 1 - Clojure, 2 - Rust |
 |  12 | [Leonardo's Monorail][day-12]                                  | [Solution](day_12/src/main.rs)           | Rust                  |
 |  13 | [A Maze of Twisty Little Cubicles][day-13]                     | [Solution](day_13/src/main.rs)           | Rust                  |
 |  14 | [One-Time Pad][day-14]                                         | [Solution](day_14/src/main.rs)           | Rust                  |
 |  15 | [Timing is Everything][day-15]                                 | [Solution](day_15/day_15.wl)             | Wolfram Language      |
 |  16 | [Dragon Checksum][day-16]                                      | [Solution](day_16/src/day_16/core.clj)   | Clojure               |
-|  17 | [Two Steps Forware][day-17]                                    | _NYI_                                    | _NYI_                 |
+|  17 | [Two Steps Forward][day-17]                                    | [Solution](day_17/src/main.rs)           | Rust                  |
 |  18 | [Like a Rogue][day-18]                                         | [Solution](day_18/src/day_18/core.clj)   | Clojure               |
 |  19 | [An Elephant Named Joseph][day-19]                             | [Solution](day_19/day19-hs/src/Day19.hs) | Haskell               |
 
