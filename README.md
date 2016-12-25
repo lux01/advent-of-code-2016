@@ -32,7 +32,7 @@ Each day has two parts, the second part of which is available after successfully
 |  18 | [Like a Rogue][day-18]                                         | [Solution](day_18/src/day_18/core.clj)   | Clojure               |
 |  19 | [An Elephant Named Joseph][day-19]                             | [Solution](day_19/day19-hs/src/Day19.hs) | Haskell               |
 |  20 | [Firewall Rules][day-20]                                       | [Solution](day_20/src/main.rs)           | Rust                  |
-
+|  21 | [Scrambled Letters and Hash][day-21]                           | [Solution](day_21/src/main.rs)           | Rust                  |
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
 [day-02]: http://adventofcode.com/2016/day/2
@@ -56,4 +56,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-18]: http://adventofcode.com/2016/day/18
 [day-19]: http://adventofcode.com/2016/day/19
 [day-20]: http://adventofcode.com/2016/day/20
-
+[day-21]: http://adventofcode.com/2016/day/21
