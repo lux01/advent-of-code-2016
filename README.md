@@ -36,7 +36,7 @@ Each day has two parts, the second part of which is available after successfully
 |  22 | [Grid Computing][day-22]                                       | Pending solution                         | _N/A_                 |
 |  23 | [Safe Cracking][day-23]                                        | [Solution](day_23/src/main.rs)           | Rust                  |
 |  24 | [Air Duct Spelunking][day-24]                                  | [Solution](day_24/src/day_24/core.clj)   | Clojure               |
-|  25 | [Clock Signal][day-25]                                         | Pending solution                         | _N/A_                 |
+|  25 | [Clock Signal][day-25]                                         | [Solution](day_25/code.asm)              | Analytic solution     |
 
 [aoc2016]: http://adventofcode.com/2016
 [day-01]: http://adventofcode.com/2016/day/1
